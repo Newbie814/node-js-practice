@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Newbie814/node-js-practice#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.3"
   }
 }
