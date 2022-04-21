@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Newbie814/node-js-practice#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0"
   }
 }

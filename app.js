@@ -1,6 +1,11 @@
 const express = require('express');
 
 const locationRoutes = require('./routes/location');
+require('dotenv').config();
+
+// process.env
+let mongoUri = process.env.MONGO_URI;
+
 const app = express();
 
 // app.set('view engine', 'ejs');
